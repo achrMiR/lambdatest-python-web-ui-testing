@@ -1,17 +1,18 @@
 {
   "authentication": {
-    "username": "",
-    "key": ""
+    "username": "achr",
+    "key": "XJGdnid8f8xBN6Ixe0pC7gT6zrNmRxLJTGQy8SHodY9WhSL8md"
   },
   
   "webdriver": {
-    "browserName": "chrome",
-    "build": "Web UI Testing with Python and LambdaTest",
+    "browserName": "firefox",
+    "build": "Test 3 firefox",
     "console": true,
     "network": true,
     "platform": "Windows 10",
-    "version": "77",
+    "version": "95",
     "video": true,
-    "visual": true
+    "visual": true,
+    "resolution": "1920x1080"
   }
 }
