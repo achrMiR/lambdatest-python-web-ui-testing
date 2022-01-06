@@ -9,7 +9,7 @@ from pages.search import DuckDuckGoSearchPage
 
 
 @pytest.mark.parametrize('phrase', ['panda', 'polar bear', 'platypus', 'penguin'])
-def test_basic_duckduckgo_search(browser, phrase):
+def test_fleet_login(browser, phrase):
   search_page = DuckDuckGoSearchPage(browser)
   result_page = DuckDuckGoResultPage(browser)
   
